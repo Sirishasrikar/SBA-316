@@ -1,0 +1,154 @@
+body {
+    background-image: url(../images/heartloop.gif) ;
+    }
+    
+.main {
+    border: 5px double rgb(35, 64, 142);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: bisque;
+}
+.login{
+    border: 5px double rgb(35, 64, 142);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: bisque;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    }
+.card-body-who {
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    position: relative; 
+    justify-content:left;
+    align-items: center;
+    border-radius: 4px;
+    padding: 20px;
+    transition: all 3s ease-in;
+    
+}
+
+.card-body-what {
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    position: relative; 
+    justify-content:left;
+    align-items: center;
+    border-radius: 4px;
+    padding: 20px;
+    transition: all 3s ease-in;
+    }
+
+ .img-container img {
+    max-width: 100%;
+    height: auto;
+    border: 5px double rgb(35, 64, 142);
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+  }
+
+.card-body-who p,
+.card-body-who h1 {
+    margin: 8px;
+}
+
+.card-body-what p,
+.card-body-what h1 {
+    margin: 8px;
+} 
+
+p {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    color: bisque;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: bisque;
+}
+h4{
+    text-align: center;
+}
+.home {
+    border: 5px doublergb(35, 64, 142);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+td,
+th {
+    border: double rgb(35, 64, 142);
+    border-collapse: collapse;
+}
+
+table {
+    border: 1px double rgb(35, 64, 142);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    color: bisque;
+}
+
+.feeling {
+    border: 5px double rgb(35, 64, 142);
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    font-size: 20px;
+    color: bisque;
+}
+
+.why {
+    border: 5px double rgb(35, 64, 142);
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    font-size: 20px;
+    color: bisque;
+}
+h3{
+    text-align: center;
+    color: bisque; 
+}
+h6{
+        color: bisque;   
+}
